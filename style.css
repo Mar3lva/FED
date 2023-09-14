@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/*kleuren*/
+body{
+    background-color: #130f24;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* menu */
+
+ul{ 
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+li{
+    margin: 1%;
+}
+
+/*pagina 1*/
+
+section:nth-of-type(1){
+    display: grid;
+}
+
+section:nth-of-type(1)img{
+    display: grid; 
+    grid-column-end: 1;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+article:first-child{
+    display: grid;
+
+}

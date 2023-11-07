@@ -7,9 +7,10 @@ HamburgerButton.onclick = function () {
     Hamburgerul.classList.toggle ("open")
 }
 
-//section 1
+/*scroll animatie*/
 function revealOnScroll() {
     var animatedSection = document.getElementById("animated-section");
+    if (!animatedSection) return; // Check if the element exists
     var sectionPosition = animatedSection.getBoundingClientRect().top;
     var windowHeight = window.innerHeight;
 
@@ -19,9 +20,10 @@ function revealOnScroll() {
     }
 }
 
-// Section 2
+/*section2*/
 function animateSection2() {
     var section2 = document.getElementById("animated-section1");
+    if (!section2) return; // Check if the element exists
     var section2Position = section2.getBoundingClientRect().top;
     var windowHeight = window.innerHeight;
 
@@ -31,9 +33,10 @@ function animateSection2() {
     }
 }
 
-// Section 3
+/*section3*/
 function animateSection3() {
     var section3 = document.getElementById("animated-section2");
+    if (!section3) return; // Check if the element exists
     var section3Position = section3.getBoundingClientRect().top;
     var windowHeight = window.innerHeight;
 
@@ -43,9 +46,10 @@ function animateSection3() {
     }
 }
 
-// Section 4
+/*section4*/
 function animateSection4() {
     var section4 = document.getElementById("animated-section3");
+    if (!section4) return; // Check if the element exists
     var section4Position = section4.getBoundingClientRect().top;
     var windowHeight = window.innerHeight;
 
@@ -55,9 +59,10 @@ function animateSection4() {
     }
 }
 
-// Section 5
+/*section5*/
 function animateSection5() {
     var section5 = document.getElementById("animated-section4");
+    if (!section5) return; // Check if the element exists
     var section5Position = section5.getBoundingClientRect().top;
     var windowHeight = window.innerHeight;
 
@@ -67,13 +72,10 @@ function animateSection5() {
     }
 }
 
-// Animatie werkt wanneer je scroll
 window.addEventListener("scroll", function () {
+    revealOnScroll();
     animateSection2();
     animateSection3();
     animateSection4();
     animateSection5();
 });
-
-// Animatie werkt wanneer je scroll
-window.addEventListener("scroll", revealOnScroll);

@@ -22,11 +22,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw 
 
   #### Je focus:
- surface laag
+  Surface laag
  
 </details>
-
-
 
 
 
@@ -49,6 +47,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
+|
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
@@ -56,8 +55,35 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen: Dat het een goed gecodeerde site is.  Er werd code gebruikt die ik niet in de eerste instantie begreep. Ik had als eerste gedachte dat dit een te moeielijke site was voor mij om te coderen sinds dat ik vind dat ik er niet goed in ben. Ik ben toch maar voor de uitdaging gegaan om uit mijn comfort zone te gaan en zo beter in dit vak wordt.
+  Dit was de eerste keer dat ik met WCAG checklist ging werken. Bij sommige vragen moest ik nog opzoeken wat de vraag inhoudt. Tijdens het checken van de lijst kwam ik uit de volgende bevindingen:
 
+  - Het een goed gecodeerde site is er zat er maar 1 fout in wat niet fataal is. 
+
+  - Er werd niet duidelijk aangegeven als iets klikbaar of een knop is. Het leek op normale tekst. 
+
+  - De knoppen staat ook erg dichtbij andere elementen wat hegt moeilijker maakt op precies op te drukken. 
+
+  - Er wordt geen gebruik gemaakt van ol,ul en dl elementen.
+
+  - Bij de uiterlijk van de site wordt er vaak alleen van kleur gebruikt voor informatie zoals bij een knop.
+
+  - Wanneer je door de site heen tapt gaat het niet langs alle elementen. 
+
+  - Ik kon geen h1 vinden en er werd veel code gebruikt die ik nog niet begreep.
+
+  - Op achtergond plaatjes is er geen alt tekst maar dat is niet ook niet nodig voor een achtergrond tekst. 
+
+  - De site biedt geen dark of light mode optie de site is van zichzelf al donker en heeft geen optie om het lichter te maken. 
+
+  - De achtergond plaatjes veranderen elke keer en er is geen optie om dat uit te doen. 
+
+  Uit deze bevindingen wil ik vooral in mijn site gaan letten dat ik duidelijke knoppen gebruikt. Dus ik ga niet zoals in de site alleen met kleur gebruiken.  Ik ga ook geen achtergond maken die de hele tijd beweegt en geen optie is om dat uit te zetten. Ook wil ik een goede light en darkmode optie zodat het meer inclusiever is voor mensen die sneller geprikkeld wordt. 
+
+  <img src="readme-images/test.png" alt="test">
+  <img src="readme-images/test1.png" alt="test">
+  <img src="readme-images/test2.png" alt="test">
+  <img src="readme-images/test3.png" alt="test">
+  <img src="readme-images/test4.png" alt="test">
 </details>
 
 
@@ -68,41 +94,47 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/homapagina.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/pagina1.png" width="375px" alt="breakdown van de hele pagina">
 
   ### de hele pagina 2: 
-  <img src="readme-images/detailpagina.png" width="375px" alt="breakdown van de hele pagina 2">
-
+  <img src="readme-images/pagina2.png" width="375px" alt="breakdown van de hele pagina 2">
 </details>
 
 
 
 
-
 ## Voortgang 1 (week 2)
-
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
- Ik was hier bezig met de eerste opzet van mijn pagina. Ik wist eerst niet goed hoe ik het plaatje goed als achtergond moest instellen zonder dat het de hele pagina overneemt en ging ik ook onderzoek doen hoe ik er een fade over het plaatje heen kan doen. In het begin kwam ik er niet goed uit en heb ik hulp gevraagd bij de studentassisten. Hun hadden me goed op weg gezet met de opzet en kon ik zo makkelijk verder. 
-  <img src="readme-images/begin.png.png" width="375px" alt="begin opzet">
+<img src="readme-images/begin.png" alt="beginpagina">
+Hier had ik eerst moeite mee om een gradient over een achtergondplaatje te zetten. En wist ik eerst niet hoe ik dat moest doen met een ander plaatje overheen. 
+
+<img src="readme-images/f.png" alt="pagina">
+Hier is het me gelukt om voorverschillende secties een andere achtergond foto te zetten. Ik had eerst wel moeite uitvolgelen hoe ik het goed kon positioneren maar met behulp van de studentassitent is het gelukt. 
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  Chante : Hoe ze goed de layout kan maken met grid
-  Marelva: Hoe ik de achtergond kan instellen voor een bepaalde stuk
-  Maeike: Hoe svg bestanden werken
-  Jens: Hoe hij een video als achtergond kan doen
+  Chante : Hoe ze goed de layout kan maken met grid en waarom die van haar niet werkt zoals ze wilt.
+
+  Marelva: Hoe ik de achtergond kan instellen voor een bepaalde sectie en hoe ik het plaatje dan goed kan posionteren.
+
+  Meike: Hoe svg images werken en hoe ze het in haar website kan laten werken. 
+
+  Jens: Hoe hij een video als achtergond kan doen hoe hij het er beste eruit kan laten zien.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Dat je fr moet gebruiken voor het grootte van een vak
-  - Dat het beste is om een selectie een achtergond te geven
+  - Dat er op een section een achtergond foto moet zetten zodat het alleen daarvoor geldt.
+ 
+ - Dat is ascpect radio moest gebruiken om het plaatje de juiste groote te geven.
 
+ - De opdrachten proberen te maken zodat ik het beter kan begrijpen en die code in mijn site kan gebruiken. 
 </details>
 
 
@@ -115,26 +147,34 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
- Ik had dit keer moeite met het animeren van mijn plaatjes. Het ziet er heel gek uit en gaat niet smooth door dus ik wilde draag graag hulp bij.
+<img src="readme-images/w.png" alt="screen">
+Ik had hier moeite met het positoneren van een foto. Het lukte me eerst niet op het in het midden te krijgen. Ik kwam er later achter na het vragen van medestudenten om mee te kijken dat ik het verkeerd aansprak in css. 
+
+<img src="readme-iamges/grid.png" alt="grid">
+Het was me goed gelukt om een mooie grid te maken. Na het maken van de opdrachten begreep ik al snel hoe grid werkte en heb ik het verwerkt in mijn site. Daarnaast was het me ook gelukt om een hoveranimatie te zetten over de images. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-Chante: Hoe kan ik de tekst in de menu centeren
-Marelva: Hoe krijg ik mijn animaties smooth
-Maeike: Hoe kan ik ervoor zorgen dat mijn menu goed responsive meewerkt
-Jens: Hoe kan ik een boarder creeeren op een bepaald stuk
+Chante: Hoe kan ze een spatie weg krijgen bij de footer aan het eind van de pagina?
+
+Marelva: Hoe krijg ik dat mijn animaties smooth animeren en hoe laat ik ze goed werken?
+
+Maeike: Hoe kan ik ervoor zorgen dat mijn menu goed responsive meewerkt?
+
+Jens: Hoe kan ik mijn hamburger menu laten werken.
 
   ### Verslag van meeting
  
-- ...
-
 </details>
-- Als je iets wilt centeren meot je evoor zorgen dat je de juiste ding aanspreekt
-- maak gebruik van animation-fill-mode: forwards; bij de animatie
-- schijf bij elk stuk groote de css van de menu
+- Ik moet beter mijn readme bijhouden zodat het later geen verveldende taak meer is.
 
+- Maak gebruik van animation-fill-mode: forwards; bij de animatie.
+
+- Zorg dat je de goede animatie naam aanspreekt. 
+
+- Dat ik door mijn pagina heen kan tabben.
 
 
 
@@ -144,11 +184,35 @@ Jens: Hoe kan ik een boarder creeeren op een bepaald stuk
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
+  <img src="readme-images/test.png" alt="test">
+  <img src="readme-images/test1.png" alt="test">
+  <img src="readme-images/test2.png" alt="test">
+  <img src="readme-images/test3.png" alt="test">
+  <img src="readme-images/test4.png" alt="test">
+
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
-  - In de eerste keer dat ik de test heb gedaan kwam ik erachter dat de knoppen niet duidelijk werd aangegeven dus daarmee heb ik mee verder gewerkt.
+  - Ik kwam er achter dat mijn knoppen nog niet duidelijk werd aangegeven en dat heb ik toen verbeterd.
+
+  - Ik had geen darkmode optie dus die moest ik nog toevoegen.
+
   - Dat ik nog states toevoegen.
-  - Dat ik erop let dat alle html geen erros heeft
+
+  - Dat ik erop let dat alle html geen erros heeft en ik heb daarna alle errors verbetererd. 
+
+  Na mijn eindgesprek ben ik opnieuw met de lijst langs mijn site gegaan er kwam eruit dat ik nog paar dingen kon verbeteren om mijn site optimaler te maken:
+
+  - Mijn darkmode optie was niet sterk genoeg en kon beter die site laten als een dark mode en dat ik een light mode versie maakt zodat er wel genoeg verschil is in te zien. 
+
+  - Ik ben ook gaan kijken naar hoe het werkt het de screenreader en het las alles goed voor wat op het scherm is te zien. 
+
+  - Er staan ook allemaal alt teksten op mijn plaatjes en mijn code heeft geen errors.
+
+  - Ook staat alle h1 en andere h goed op volgorde. 
+
+  - Je kan door mijn site heen tabben. 
+
+  - Er wordt geen alt tekst gebruikt op de achtergond foto's
 
 </details>
 

@@ -226,23 +226,35 @@ Jens: Hoe kan ik mijn hamburger menu laten werken.
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik vind wel dat ik nu lekker op gang gaat. Ik heb  al bijna mijn eerste pagina af. Het is alleen nog een kwestie van verder coderen. Op dit moment zijn er geen dingen waar ik tegen aan loop en voel ik me wel zelfverzekerd in dit proces. Ik was in het begin wel bang dat ik het niet zou kunnen maar kom al aardig op gang.
+<img src="readme-images/e.png" alt="e"> 
+Ik ben al aardig opweg met mijn tweede pagina. Het is me gelukt om een slider te maken. Ik ging eerst wel proberen op plaatjes te laten trasitioneren naar een andere plaatje maar dat lukte me helaas niet dus heb ik het op een andere manier opgelost. 
+
+<img src="readme-images/menu.png" alt="menu">
+Ik heb een hamburger menu gemaakt die werkt. Het lukte me niet om het helemaal te stijlen hoe ik het wilde maar komt wel goed in de buurt. 
+
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-Chante: hoe kan ik tekst samen met een plaatje positioneren
-Marelva: Geen vragen
-Maike: Hoe krijg ik die tekst ergens anders te staan
-Jens: hoe voeg je een extrene css stijl toe
+Chante: Hoe krijg ik een button in de hoek? En hoe kan ik beste mijn tweede site aanpakken?
+
+Marelva: Ik had voor deze meeting geen vragen. 
+
+Maike: Hoe kan ik sommige content het beste positioneren?
+
+Jens: Hoe voeg je een extrene css stijl toe?
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- voor een extrene stijl moet je gebruik maken van links en je site aan die stijl verbinden. 
-- gebruik maken van display flex 
+- Voor een extrene stijl moet je gebruik maken van links en je site aan die stijl verbinden. 
+
+- Gebruik maken van display flex 
+
+- Datum en tijf kan met een speciale tag gebruikt worden
+
 
 </details>
 
@@ -269,9 +281,12 @@ Ik heb best wel veel over coderen geleed in dit vak. Eerst zing ik er niet met v
 
 
   ### Dit was lastig/Is niet gelukt:
-Het is me niet gelukt om als achtergond een soort images slide show te doen. Het was wel graag iets wat ik wilde proberen maar niet op een manier kwam hoe ik het dan zou snappen hoe het werkt. Dus heb ik ervoor gekozen om 1 plaatje als achtergond te doen.  
+<img src="readme-images/paars.png" alt="paars"> 
+Het is me gelukt om een goede dark en light mode te maken. Ik heb ook geleerd om met var kleuren te werken en hoe je dat aanspreekt. Dit helpt heel goed om snel iets dezelfde kleur te geven.
 
   <img src="readme-images/begin.png" width="375px" alt="bummer">
+  Het is me niet gelukt om de plaatjes op de achtergond te laten trasioneren.
+  
 </details>
 
 
